@@ -1,7 +1,7 @@
 // Load dependencies
 const path = require('path');
 const express = require('express');
-
+require('dotenv').config();
 // Create express app
 const app = express();
 
